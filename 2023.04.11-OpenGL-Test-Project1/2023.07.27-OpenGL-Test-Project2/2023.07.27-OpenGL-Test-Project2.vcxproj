@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{aff8e54b-9d85-4d6b-a82f-f2068504c912}</ProjectGuid>
-    <RootNamespace>My20230411OpenGLTestProject1</RootNamespace>
+    <ProjectGuid>{8273b243-84d6-45e5-94f4-a6723515355d}</ProjectGuid>
+    <RootNamespace>My20230727OpenGLTestProject2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -71,7 +71,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Users\arzha\Документы\OpenGL\Libraries\Include;D:\repos\opengl-2023\OpenGL\Libraries\Include;$(IncludePath)</IncludePath>
+    <IncludePath>D:\repos\opengl-2023\OpenGL\Libraries\Include;C:\Users\arzha\Документы\OpenGL\Libraries\Include;$(IncludePath)</IncludePath>
     <LibraryPath>D:\repos\opengl-2023\OpenGL\Libraries\Lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -132,6 +132,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="glad.c" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
